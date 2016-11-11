@@ -1,7 +1,7 @@
 #第一次实验报告
 ![Mou icon](http://25.io/mou/Mou_128.png)
 ##DOL框架
-![](http://i.imgur.com/wfpY2lh.png)
+![](http://i.imgur.com/oRuncM2.png)
 ##DOL配置过程
 * 安装必要环境
 	>$	sudo apt-get update<br>
@@ -21,9 +21,9 @@
 * 编译dol
 	>$	sudo make install<br>
 	>$	cd ../dol<br>
-	替换路径：<br>
-	^^property name="systemc.inc" value="YYY/include"<br>
-	^^property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"<br><br>
+* 替换路径：<br>
+	>property name="systemc.inc" value="YYY/>include"<br>
+	>property name="systemc.lib" value="YYY/lib->linux/libsystemc.a"<br><br>
 	>$	ant -f build_zip.xml all 
 ##实验体会
 DOL全称distribute operate layer,是开发并行式软件的程序框架。
